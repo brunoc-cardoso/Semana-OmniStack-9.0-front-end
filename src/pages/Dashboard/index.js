@@ -56,8 +56,8 @@ export default function Dashboard() {
               para a data: <strong>{request.date}</strong>
             </p>
 
-            <button className="accept" onClick={() => handleAccept(request.id)}>ACEITAR</button>
-            <button className="reject" onClick={() => handleReject(request.id)}>REJEITAR</button>
+            <button className="accept" onClick={() => handleAccept(request._id)}>ACEITAR</button>
+            <button className="reject" onClick={() => handleReject(request._id)}>REJEITAR</button>
           </li>
         ))}
       </ul>
